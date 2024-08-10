@@ -35,3 +35,24 @@ else:
             print("The number is negative and even.")
         else:
             print("The number is negative and odd.")
+
+
+# This is a comment - anything after the "#" symbol is ignored by the interpreter
+
+# Print a message to the screen
+print("Hello, World!")
+
+# Ask the user for their name
+name = input("What is your name? ")
+
+# Print out a greeting with the user's name
+print("Hello, " + name + "!")
+
+# Ask the user for their age
+age = int(input("How old are you? "))
+
+# Print out a message based on the user's age
+if age < 18:
+    print("You're still young!")
+else:
+    print("You're all grown up!")
